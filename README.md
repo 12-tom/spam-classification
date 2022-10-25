@@ -100,7 +100,7 @@ y_pred = ppn.predict(X_test_std)
 # we can measure the performance using accuracy score
 print(accuracy_score(y_test,y_pred))
 
-Hyperparameter tuning
+# Hyperparameter tuning
 # grid search learning rate for the perceptron
 
 cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=3, random_state=0)
